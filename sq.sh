@@ -5,7 +5,7 @@ DB="class"   #数据库为class
 TB="student" #需要建立的表是student
 
 mysql -u$user -p123456<<EOF  #前面实现了免密码登录，这里就不需要写密码了
-drop database $DB;   #如果数据库存在，先删除，方便脚本重复执行
+#drop database $DB;   #如果数据库存在，先删除，方便脚本重复执行
 create database $DB; #建立数据库
 use $DB;             #进入到数据库
 
