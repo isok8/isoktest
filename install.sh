@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #data:20171104
 #QQ:654996537
 #Name:Zhang
